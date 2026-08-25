@@ -103,7 +103,7 @@ main {
 }
 
 #links {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
