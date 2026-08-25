@@ -143,4 +143,8 @@ main {
     #links {
         margin-bottom: 20px;
     }
+
+    #content-wrapper {
+    gap: 50px;
+    }
 }
