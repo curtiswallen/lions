@@ -2,12 +2,14 @@ body {
     background-color: black;
     color: #eee;
     margin: 0;
-    padding: 0;
+    padding: 200px;
+    font-size: 1rem;
 }
 
 a {
     color: #eee;
     text-decoration: none;
+    border-bottom: 2px solid #eee;
 }
 
 a:hover {
@@ -34,19 +36,37 @@ main {
 }
 
 #content-wrapper {
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 #name {
     margin-bottom: 10vh;
-    margin-top: 15vh;
+}
+
+#name img {
+    width: 50vw;
 }
 
 #info {
-    margin-bottom: 5vh;
-    font-size: .85em;
+    width: 50vw;
 }
 
-#contact {
-    font-size: .85em;
+#clients {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#clients ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
